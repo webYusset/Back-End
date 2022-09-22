@@ -1,0 +1,500 @@
+div.container-fluid{
+    height: 50px;
+}
+
+/*barra de navegacion*/
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+header.header{
+    background: #d6a5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 5px 5%;
+}
+.header .logo img{
+    cursor: pointer;
+    height: 50px;
+    width: auto;
+    transition: all 0.3s;
+
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+    justify-content: center;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header a.btn button{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 9px 20px;
+    background-color: rgb(154, 209, 247) ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header a.btn button:hover{
+    background-color: rgb(185, 105, 175);
+    color: rgb(231, 226, 226);
+transform: scale(1.1);
+}
+
+
+
+
+/*banner*/
+div.d-flex{
+    position: relative;
+    bottom:100px;
+    left: 0px;
+}
+
+h6.text-center{
+    position: relative;
+    bottom: 120px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+a.inf{
+    text-decoration: none;
+    color: black;
+    border: 1px aqua;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+a.inf:hover{
+    background:  rgb(228, 230, 236);
+    color:blue;
+}
+
+p{
+    position: relative;
+    left: 105px;
+    bottom: 45px; ;
+    font-size: 14px;
+}
+
+/*acerca de mi*/
+h2.acercaDeMi{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-family: Verdana;
+    font-size: 21px;
+}
+
+p.acercaDeMi{
+   position: relative;
+   top: 25px;
+   right: 3000px;
+   left: 10px;
+   text-align: justify;
+   margin-right: 40px;
+   margin-left: 20px;
+   margin-bottom: 5px;
+   font-family: Verdana;
+
+ 
+}
+/*objetivo*/
+article.objetivo{
+    font-family: verdana;
+    font-size: 25px;
+}
+
+h2.objetivo{
+    position: relative;
+    left: 10px;
+    font-size: 21px;
+}
+
+p.objetivo{
+    font-family: verdana;
+    text-align: justify;
+    left: 25px;
+    bottom: 0;
+    margin: 0px 50px 5px 0px;
+}
+/*Educacion*/ 
+article.institucion1{
+width: 100%;
+height: 100px;
+}
+
+h2.institucion1{
+    font-family: Verdana;
+    font-size: 16px;
+    position: relative;
+    left: 200px;
+    bottom: 130px ;
+}
+
+h2.certificado1{
+    font-family: Verdana;
+    font-size: 14px;
+    position: relative;
+    left: 200px;
+    bottom: 160px;
+}
+
+h3.institucion1{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    margin-left: 0;
+    margin-bottom: 100px;
+    font-family: Verdana;
+    font-size: 21px;
+}
+
+p.fechaDeI1{
+    font-family: verdana;
+    position: relative;
+    bottom: 185px;
+    left: 200px;  
+}
+
+p.fechaDeF1{
+    font-family: verdana;
+    position: relative;
+    bottom: 200px;
+    left: 200px;   
+}
+img.logoInstitucion1{
+    position: relative;
+    bottom: 300px;
+    left: 10px;
+    width: 120px;
+    height: auto;
+}
+/*institución 2*/
+article.institucion2{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    }
+    
+    h2.institucion2{
+        font-family: Verdana;
+        font-size: 16px;
+        position: relative;
+        left: 200px;
+        top: 20px;
+    }
+    
+    h2.certificado2{
+        font-family: Verdana;
+        font-size: 14px;
+        position: relative;
+        left: 200px;
+        bottom: 5px;
+    } 
+    
+    p.fechaDeR{
+        font-family: verdana;
+        position: relative;
+        left: 200px;  
+        bottom: 35px;
+    }
+    
+    img.logoInstitucion2{
+        position: relative;
+        left: 10px;
+        width: 120px;
+        height: auto;
+        bottom: 100px;
+    }
+
+/*Instituto 3*/
+article.institucion3{
+    width: 100%;
+    height: 100px;
+    }
+    
+    h2.institucion3{
+        font-family: Verdana;
+        font-size: 16px;
+        position: relative;
+        left: 200px;
+        top: 50px;px;
+    }
+    
+    h2.certificado3{
+        font-family: Verdana;
+        font-size: 14px;
+        position: relative;
+        left: 200px;
+        top: 20px;
+    }
+    
+    p.fechaDeI3{
+        font-family: verdana;
+        position: relative;
+        left: 200px;
+        bottom: 10px;  
+    }
+    
+    p.fechaDeF3{
+        font-family: verdana;
+        position: relative;
+        left: 200px; 
+        bottom: 25px;  
+    }
+    img.logoInstitucion3{
+        position: relative;
+        left: 10px;
+        width: 120px;
+        height: auto;
+        bottom: 130px;
+    }
+
+/*habilidades*/
+/*habilidades fuertes*/
+article.habilidades{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 90px;
+    position: relative;
+    left: 5px;
+}
+h2.habilidades{
+    position: relative;
+    left: 10px;
+    font-size: 21px;
+    font-family: verdana;
+}
+
+div.progress{
+    position: relative;
+    left: 10px;
+}
+
+h4.html{
+    font-size: 18px;
+    font-family: verdana;
+    position: relative;
+    left: 10px;
+}
+
+h4.css{
+    font-size: 18px;
+    font-family: verdana;
+    position: relative;
+    left: 10px;
+}
+
+h4.javascript{
+    font-size: 18px;
+    font-family: verdana;
+    position: relative;
+    left: 10px;
+}
+
+/*habilidades blandas*/
+article.habilidadesB{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 90px; 
+   right: 5px;
+}
+h2.habilidadesB{
+    position: relative;
+    left: 0;
+    font-size: 21px;
+    font-family: verdana;
+}
+article.habilidadesB{
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+}
+/*card 1*/
+div#proyecto-card{
+    left: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+ }
+ 
+ div.card:hover{
+     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+     transform: translateY(-3%);
+ }
+
+div.card-body{
+    position: relative;
+    right: 100px;
+}
+
+p.card-text{
+    font-family: verdana;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+h5.card-title{
+    font-family: verdana;
+    position: relative;
+    left: 70px;
+}
+/*cars 2*/
+div.card-body{
+    position: relative;
+    right: 100px;
+}
+
+img.img-fluid.rounded-start2{
+margin-top: 10px;
+}
+
+p.card-text{
+    font-family: verdana;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+h5.card-title2{
+    font-family: verdana;
+    position: relative;
+    left: 50px;
+}
+/*card 3*/
+div.card-body{
+    position: relative;
+    right: 100px;
+}
+
+img.img-fluid.rounded-start3{
+margin-top: 10px;
+}
+
+p.card-text{
+    font-family: verdana;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+h5.card-title3{
+    font-family: verdana;
+    position: relative;  
+    left: 50px;
+}
+/*card 4*/
+div.card-body{
+    position: relative;
+    right: 100px;
+}
+
+img.img-fluid.rounded-start4{
+margin-top: 10px;
+}
+
+p.card-text{
+    font-family: verdana;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+h5.card-title4{
+    font-family: verdana;
+    position: relative;  
+    left: 30px;
+}
+/*Proyecto*/
+div#proyecto.card{
+height: 520px;
+top: 5px;
+left: 100px;
+}
+
+img.card-img-top{
+    width: 100%;
+    height: auto
+}
+
+h5.card-title{
+    padding: 10px;
+    text-align:center;
+    left: 90px;
+}
+
+p.card-text{
+    padding: 10px;
+    text-align: justify;
+}
+
+a.card-link{
+   position: relative;
+   left: 170px;
+   bottom: 10px;
+  bottom: 50px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+
+} 
+
+a.card-link:hover{
+    background: #2fb4cc;
+    color: white;
+
+}
+ /*Footer Boostrap*/
+ div#footer.card-body{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+ }
+
+ div#footer.card-title2{
+    background:#d6a5e5;
+    position: relative;
+    top: 100px;
+    
+ }
